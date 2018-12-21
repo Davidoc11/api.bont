@@ -1,0 +1,112 @@
+insert into user values("amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ
+insert into user values("amzn1.account.AE6W5E4YKRHTSQIVGZV5D25336JA");
+
+		Sarahi
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (55911403,"REVOLTING",5208324,277936,4930388,4930388,"2018-12-06","amzn1.account.AE6W5E4YKRHTSQIVGZV5D25336JA");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (22960736,"REVOLTING",8046224,4707114,3339110,3339110,"2018-12-06","amzn1.account.AE6W5E4YKRHTSQIVGZV5D25336JA");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (105199713,"FIXED_TERM",67492,53155,14337,"amzn1.account.AE6W5E4YKRHTSQIVGZV5D25336JA");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (15563258,"FIXED_TERM",182044,63605,118439,"amzn1.account.AE6W5E4YKRHTSQIVGZV5D25336JA");
+
+
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (105199713,"FIXED_TERM",67492,53155,14337,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (15563258,"FIXED_TERM",182044,63605,118439,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (741019676,"REVOLTING",11866514,3640840,8225674,8225674,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (602041397,"REVOLTING",3401710,113733,3287977,3287977,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+
+insert into movement (amount,concept,date,credit_id) values (123,"Intereses del periodo","2018-12-06",105199713);
+insert into movement (amount,concept,date,credit_id) values (123,"Cuota por Nómina","2018-12-06",105199713);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Protección de Crédito","2018-12-06",105199713);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Periodo de Gracia","2018-12-06",105199713);
+
+insert into movement (amount,concept,date,credit_id) values (123,"Intereses del periodo","2018-12-06",2);
+insert into movement (amount,concept,date,credit_id) values (123,"Cuota por Nómina","2018-12-06",2);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Protección de Crédito","2018-12-06",2);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Periodo de Gracia","2018-12-06",2);
+
+insert into movement (amount,concept,date,credit_id) values (123,"Intereses del periodo","2018-12-06",3);
+insert into movement (amount,concept,date,credit_id) values (123,"Cuota por Nómina","2018-12-06",3);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Protección de Crédito","2018-12-06",3);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Periodo de Gracia","2018-12-06",3);
+
+insert into movement (amount,concept,date,credit_id) values (123,"Intereses del periodo","2018-12-06",4);
+insert into movement (amount,concept,date,credit_id) values (123,"Cuota por Nómina","2018-12-06",4);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Protección de Crédito","2018-12-06",4);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Periodo de Gracia","2018-12-06",4);
+
+insert into movement (amount,concept,date,credit_id) values (123,"Intereses del periodo","2018-12-06",5);
+insert into movement (amount,concept,date,credit_id) values (123,"Cuota por Nómina","2018-12-06",5);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Protección de Crédito","2018-12-06",5);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Periodo de Gracia","2018-12-06",5);
+
+insert into movement (amount,concept,date,credit_id) values (123,"Intereses del periodo","2018-12-06",6);
+insert into movement (amount,concept,date,credit_id) values (123,"Cuota por Nómina","2018-12-06",6);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Protección de Crédito","2018-12-06",6);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Periodo de Gracia","2018-12-06",6);
+
+insert into movement (amount,concept,date,credit_id) values (123,"Intereses del periodo","2018-12-06",7);
+insert into movement (amount,concept,date,credit_id) values (123,"Cuota por Nómina","2018-12-06",7);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Protección de Crédito","2018-12-06",7);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Periodo de Gracia","2018-12-06",7);
+
+insert into movement (amount,concept,date,credit_id) values (123,"Intereses del periodo","2018-12-06",8);
+insert into movement (amount,concept,date,credit_id) values (123,"Cuota por Nómina","2018-12-06",8);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Protección de Crédito","2018-12-06",8);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Periodo de Gracia","2018-12-06",8);
+
+
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (683058079,"FIXED_TERM",114327,16853,97474,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (525617284,"FIXED_TERM",177455,85268,92187,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (150680449,"FIXED_TERM",89787,22125,67662,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (281772318,"FIXED_TERM",161087,74282,86805,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (180469518,"FIXED_TERM",123268,78649,44619,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (673069392,"FIXED_TERM",35815,7082,28733,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (436704880,"FIXED_TERM",98366,8193,90173,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (952551508,"FIXED_TERM",75233,24138,51095,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (282118645,"FIXED_TERM",151019,71409,79610,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (707852428,"FIXED_TERM",199029,94465,104564,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (183225728,"FIXED_TERM",121601,77279,44322,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (968986131,"FIXED_TERM",85676,26565,59111,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (797284010,"FIXED_TERM",187230,92989,94241,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (812414103,"FIXED_TERM",164134,45346,118788,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (94038833,"FIXED_TERM",189112,89781,99331,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (112934222,"FIXED_TERM",154983,32071,122912,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (35200270,"FIXED_TERM",48379,7042,41337,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (76007681,"FIXED_TERM",91644,27642,64002,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (105199713,"FIXED_TERM",67492,53155,14337,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (15563258,"FIXED_TERM",182044,63605,118439,"amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (741019676,"REVOLTING",11866514,3640840,8225674,8225674,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (602041397,"REVOLTING",3401710,113733,3287977,3287977,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (127596376,"REVOLTING",10398773,7782558,2616215,2616215,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (32305597,"REVOLTING",11004501,2010487,8994014,8994014,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (883737763,"REVOLTING",9730027,1382598,8347429,8347429,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (666769783,"REVOLTING",10159506,5010102,5149404,5149404,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (34268072,"REVOLTING",6467749,3508123,2959626,2959626,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (973613575,"REVOLTING",2807013,603361,2203652,2203652,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (599352649,"REVOLTING",6562114,411578,6150536,6150536,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (305918309,"REVOLTING",8228915,2882083,5346832,5346832,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (795274547,"REVOLTING",3378946,3161908,217038,217038,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (505185652,"REVOLTING",7087445,1471564,5615881,5615881,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (837406230,"REVOLTING",7259236,1260268,5998968,5998968,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (778589031,"REVOLTING",8924577,2652255,6272322,6272322,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (286385113,"REVOLTING",6416340,4491988,1924352,1924352,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (8998805,"REVOLTING",47799,10444,37355,37355,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (29570677,"REVOLTING",1800153,295230,1504923,1504923,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (116103906,"REVOLTING",6644551,1955591,4688960,4688960,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (55911403,"REVOLTING",5208324,277936,4930388,4930388,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (22960736,"REVOLTING",8046224,4707114,3339110,3339110,"2018-12-06","amzn1.account.AF5UK7MERHQ3ABSM3UNUDNG2TMUQ");
+
+
+--------------------------------------------
+
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (55911403,"REVOLTING",5208324,277936,4930388,4930388,"2018-12-06","amzn1.account.AE6W5E4YKRHTSQIVGZV5D25336JA");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (22960736,"REVOLTING",8046224,4707114,3339110,3339110,"2018-12-06","amzn1.account.AE6W5E4YKRHTSQIVGZV5D25336JA");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (105199713,"FIXED_TERM",67492,53155,14337,"amzn1.account.AE6W5E4YKRHTSQIVGZV5D25336JA");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (15563258,"FIXED_TERM",182044,63605,118439,"amzn1.account.AE6W5E4YKRHTSQIVGZV5D25336JA");
+
+
+
+--------------------------------------------
+
+
+insert into movement (amount,concept,date,credit_id) values (123,"123","2018-12-06",1);

@@ -1,0 +1,20 @@
+amzn1.account.AFJ5JBMJXP3OCG2RUEQIORRQGOEA
+
+
+
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (55911403,"REVOLTING",5208324,277936,4930388,4930388,"2018-12-06","amzn1.account.AFJ5JBMJXP3OCG2RUEQIORRQGOEA");
+insert into credit (number,type,amount,available,charge,minimum_payment,deadline,user_id) values (22960736,"REVOLTING",8046224,4707114,3339110,3339110,"2018-12-06","amzn1.account.AFJ5JBMJXP3OCG2RUEQIORRQGOEA");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (105199713,"FIXED_TERM",67492,53155,14337,"amzn1.account.AFJ5JBMJXP3OCG2RUEQIORRQGOEA");
+insert into credit (number,type,amount,remaining_debt,monthly_payment,user_id) values (15563258,"FIXED_TERM",182044,63605,118439,"amzn1.account.AFJ5JBMJXP3OCG2RUEQIORRQGOEA");
+
+
+
+insert into movement (amount,concept,date,credit_id) values (123,"Intereses del periodo","2018-12-06",55911403);
+insert into movement (amount,concept,date,credit_id) values (123,"Cuota por Nómina","2018-12-06",55911403);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Protección de Crédito","2018-12-06",55911403);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Periodo de Gracia","2018-12-06",55911403);
+
+insert into movement (amount,concept,date,credit_id) values (123,"Intereses del periodo","2018-12-06",22960736);
+insert into movement (amount,concept,date,credit_id) values (123,"Cuota por Nómina","2018-12-06",22960736);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Protección de Crédito","2018-12-06",22960736);
+insert into movement (amount,concept,date,credit_id) values (123,"Retención Periodo de Gracia","2018-12-06",22960736);
