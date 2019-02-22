@@ -11,6 +11,8 @@ public class FirebaseNotification {
 
     @JsonProperty("registration_ids")
     List<String> registrationIds;
+    @JsonProperty("notification")
+    Map<String,String> notification;
     @JsonProperty("data")
     Map<String,String> data;
 }

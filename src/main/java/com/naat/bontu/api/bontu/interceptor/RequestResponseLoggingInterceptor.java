@@ -27,23 +27,25 @@ public RequestResponseLoggingInterceptor(){
 
     private void logRequest(HttpRequest request, byte[] body) throws IOException {
 
-            log.debug("===========================request begin================================================");
+            log.debug("=========================== REQUEST BEGIN ================================================");
             log.debug("URI         : {}", request.getURI());
             log.debug("Method      : {}", request.getMethod());
             log.debug("Headers     : {}", request.getHeaders());
             log.debug("Request body: {}", new String(body, "UTF-8"));
-            log.debug("==========================request end================================================");
+            log.debug("===========================" +
+                    "" +
+                    " REQUEST END ================================================");
 
     }
 
     private void logResponse(ClientHttpResponse response) throws IOException {
         if (log.isDebugEnabled()) {
-            log.debug("============================response begin==========================================");
+            log.debug("============================ RESPONSE BEGIN ==========================================");
             log.debug("Status code  : {}", response.getStatusCode());
             log.debug("Status text  : {}", response.getStatusText());
             log.debug("Headers      : {}", response.getHeaders());
             log.debug("Response body: {}", StreamUtils.copyToString(response.getBody(), Charset.defaultCharset()));
-            log.debug("=======================response end=================================================");
+            log.debug("============================ RESPONSE END =================================================");
         }
     }
 }

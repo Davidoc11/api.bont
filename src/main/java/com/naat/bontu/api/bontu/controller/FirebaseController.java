@@ -11,6 +11,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpRequest;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.http.client.*;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.util.LinkedMultiValueMap;
@@ -64,35 +66,41 @@ public class FirebaseController {
         return false;
     }
 
+    @PatchMapping(value = {"/firebase_token/","/firebase_token"})
+    public ResponseEntity<FirebaseToken> updateFirebaseToken(@RequestBody FirebaseToken firebaseToken) {
+        System.out.println("Updating User " + firebaseToken.getUser().getUser());
+
+        FirebaseToken currentFirebaseToken = firebaseTokenRepository.findByUser(firebaseToken.getUser());
+
+        if (currentFirebaseToken==null) {
+            System.out.println("ForebaseToken with user " + firebaseToken.getUser().getUser() + " not found");
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+
+        currentFirebaseToken.setToken(firebaseToken.getToken());
+
+
+        firebaseTokenRepository.save(currentFirebaseToken);
+        return new ResponseEntity<>(currentFirebaseToken, HttpStatus.OK);
+    }
+
 
     @PostMapping(value = "/firebase_token/notification")
     public Object sendNotification(@RequestBody FirebaseNotification notification) {
 
-        Map<String,String> dataMap= notification.getData();
         MultiValueMap<String, String> headers = new LinkedMultiValueMap<String, String>();
         headers.add("Authorization", "key=" + "AAAA_McKvQ0:APA91bEvu5ksvQ5dQbOex9Sr5j0QuSsn-O7RvnZqIWPNu47qXs5j3fAt5Kz1tX3ev-TufWgdX7aU8wnzuadjSXBsqOmDq9DgPmA_-DA_NsIiBOHOQqYnC7QUQvSKx4eHGbSsJRNWPEld");
         headers.add("Content-Type", "application/json");
         ClientHttpRequestFactory factory = new BufferingClientHttpRequestFactory(new SimpleClientHttpRequestFactory());
         RestTemplate restTemplate = new RestTemplate(factory);
 
-
-        restTemplate.setInterceptors(Collections.singletonList(new RequestResponseLoggingInterceptor()));
         restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
 
 
 
-        /*Map<String, String> data = new HashMap<>();
-
-        data.put("body", "consectetur et.");
-        data.put("title", "Promocion de algo");
-        data.put("image", "");
-        data.put("icon", "default");
-        data.put("sound", "default");*/
-        List<String> ids=firebaseTokenRepository.findAll().stream().map(FirebaseToken::getToken).collect(Collectors.toList());
+        List<String> ids=firebaseTokenRepository.findAll().stream().filter(s->!s.getToken().isEmpty()).map(FirebaseToken::getToken).collect(Collectors.toList());
         notification.setRegistrationIds(ids);
-        notification.setData(dataMap);
         HttpEntity<FirebaseNotification> request = new HttpEntity<>(notification, headers);
-
         return restTemplate.postForObject("https://fcm.googleapis.com/fcm/send", request, Object.class);
     }
 }
